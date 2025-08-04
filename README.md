@@ -1,13 +1,11 @@
 # ReliPost: Background Synthesis and Layout Planning with Multimodal Large Language Model
 📌 This repository contains the official implementation of our AAAI 2026 paper:
-“Towards Reliable Poster Generation: Background Synthesis and Layout Planning with Multimodal Large Language Model.”
+"Towards Reliable Poster Generation: Background Synthesis and Layout Planning with Multimodal Large Language Model."
 
 ## 📢 Notice
 🔥 Training code  will be released after the paper accepted.
 
 📝 [2025.08.04] Model Weight and Inferenced code have been released.
-
-
 
 ## 📦 Dataset
 We introduce BiPoster, a curated bilingual (Chinese-English) poster dataset, containing over 2,882 samples across 6 categories.
@@ -18,24 +16,18 @@ We introduce BiPoster, a curated bilingual (Chinese-English) poster dataset, con
 
 ### ⚠️ Usage Restrictions
 #### ✅ Permitted Uses:
-  
-  Academic research
-  
-  Reproduction of experimental results
-  
-  Non-commercial educational use
-  
-  #### ❌ Prohibited Uses:
-  
-  Any form of commercial use
-  
-  Redistribution of the dataset without permission
-  
-  Use in projects with commercial licensing, monetization, or proprietary extensions
+- Academic research
+- Reproduction of experimental results  
+- Non-commercial educational use
+
+#### ❌ Prohibited Uses:
+- Any form of commercial use
+- **Redistribution of the dataset without permission**
+- Use in projects with commercial licensing, monetization, or proprietary extensions
 
 ### 📁 Structure
 Each sample contains:
-``` bash
+```bash
 📦 datapath/
 ├── images/                  # Raw poster images
 ├── backgrounds/             # Backgrounds
@@ -48,7 +40,6 @@ Each sample contains:
 ## 🛠 Environment Setup
 Note: We use Qwen-VL-7B as the MLLM and FLUX for background generation.
 ```bash
-
 # Create and activate environment
 conda create -n relipost python=3.10 -y
 conda activate relipost
