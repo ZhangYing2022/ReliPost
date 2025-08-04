@@ -11,7 +11,7 @@
 
 ## 📦 Dataset
 We introduce BiPoster, a curated bilingual (Chinese-English) poster dataset, containing over 2,882 samples across 6 categories.
-📄 Release Terms
+
 The dataset will be publicly released upon acceptance and publication of the paper.
 
 All samples in BiPoster were collected and annotated for academic research purposes only！
