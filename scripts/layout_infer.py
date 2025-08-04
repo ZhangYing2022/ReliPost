@@ -16,9 +16,9 @@ messages = [
         "content": [
             {
                 "type": "image",
-                "image": "results/backgrounds/flux_1.png",
+                "image": "results/backgrounds/bg1.png",
             },
-            {"type": "text", "text": "Based on the background image, generate the layout configuration for a poster with a width of 1200px and a height of 1600px. The text content is: ['CHENGDU', '成', '都', 'Or on the road, to see the most beautiful scenery and you.']. The theme of the poster is: Life Plog. Please output a set of layers in the format."},
+            {"type": "text", "text": "Based on the background image, generate the layout configuration for a poster with a width of 1200px and a height of 1600px. The text content is: ['藤井树', 'Love Story', 'Director: Yan Jingjun Er, Starring: BaiYuanchong, Zhongshan Meihui', '2025']. The theme of the poster is: Movie Poster. Please output a set of layers in the format."},
         ],
     }
 ]
