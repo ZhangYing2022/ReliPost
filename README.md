@@ -1,11 +1,11 @@
 # ReliPost: Background Synthesis and Layout Planning with Multimodal Large Language Model
-📌 This repository contains the official implementation of our AAAI 2026 paper:
+📌 This repository contains the official implementation of our paper:
 "Towards Reliable Poster Generation: Background Synthesis and Layout Planning with Multimodal Large Language Model."
 
 ## 📢 Notice
 🔥 Training code  will be released after the paper accepted.
 
-📝 [2025.08.04] Model Weight and Inferenced code have been released.
+📝 [2025.08] Inferenced code has been released.
 
 ## 📦 Dataset
 We introduce BiPoster, a curated bilingual (Chinese-English) poster dataset, containing over 2,882 samples across 6 categories.
