@@ -57,15 +57,6 @@ conda activate relipost
 pip install -r requirements.txt
 ```
 
-## 🧹 Data Preprocessing
-```bash
-# Convert raw poster annotations to JSON layout spec
-python tools/preprocess_layout.py --data_dir datapath/ --output_dir processed/
-
-# Generate background prompts for each sample
-python tools/generate_background_prompt.py --csv datapath/meta.csv
-```
-
 ## 🚀 Inference (Layout + Background + Rendering)
 ```bash
 # 1. Generate poster background
